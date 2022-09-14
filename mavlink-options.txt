@@ -1,0 +1,95 @@
+accelcalsimple  : do simple accelerometer calibration
+adsb            : adsb control
+ahrstrim        : do AHRS trim
+alias           : command aliases
+alllinks        : send command on all links
+alt             : show altitude information
+arm             : arm motors
+attitude        : attitude
+auxopt          : select option for aux switches on CH7 and CH8 (ArduCopter only)
+bat             : show battery information
+batreset        : reset battery remaining
+calpress        : calibrate pressure sensors
+camctrlmsg      : camctrlmsg
+cammsg          : cammsg
+cammsg_old      : cammsg_old
+canforward      : enable CAN forwarding
+capabilities    : fetch autopilot capabilities
+changealt       : change target altitude
+changealt_abs   : change target absolute altitude
+click           : set click location
+command_int     : execute mavlink command_int
+compassmot      : do compass/motor interference calibration
+console         : console module
+corrupt_params  : corrupt param storage
+devid           : show device names from parameter IDs
+disarm          : disarm motors
+engine          : engine
+fence           : geo-fence management
+flashbootloader : flash bootloader (dangerous)
+forcecal        : force calibration save
+formatsdcard    : format SD card
+ftp             : file transfer
+gethome         : get HOME_POSITION
+ground          : do a ground start
+guided          : fly to a clicked location on map
+gyrocal         : do gyro calibration
+hardfault_autopilot : hardfault autopilot
+internalerror_autopilot : cause internal error in autopilot
+land            : auto land
+layout          : window layout management
+led             : control board LED
+level           : set level on a multicopter
+link            : link control
+lockup_autopilot : lockup autopilot
+log             : log file handling
+long            : execute mavlink long command
+longloop_autopilot : cause long loop in autopilot
+magcal          : magcal
+magresetofs     : reset offsets for all compasses
+magsetfield     : set expected mag field by field
+map             : map control
+mode            : mode change
+module          : module commands
+motortest       : motortest commands
+namedvaluefloat : send a NAMED_VALUE_FLOAT
+oreoled         : control OreoLEDs
+output          : output control
+panic_autopilot : panic autopilot
+parachute       : parachute
+param           : parameter handling
+pause           : pause AUTO/GUIDED modes
+playtune        : play tune remotely
+position        : position
+posvel          : posvel
+rally           : rally point control
+rc              : RC input control
+rcbind          : bind RC receiver
+reboot          : reboot autopilot
+relay           : relay commands
+repeat          : repeat a command at regular intervals
+reset           : reopen the connection to the MAVLink master
+resume          : resume AUTO/GUIDED modes
+script          : run a script of MAVProxy commands
+scripting       : control onboard scripting
+servo           : servo commands
+set             : mavproxy settings
+setorigin       : set global origin
+setspeed        : do_change_speed
+setup           : go into setup mode
+setyaw          : condition_yaw
+shell           : run shell command
+signing         : signing control
+status          : show status
+switch          : flight mode switch control
+takeoff         : takeoff
+terrain         : terrain control
+time            : show autopilot time
+tuneopt         : Select option for Tune Pot on Channel 6 (quadcopter only)
+up              : adjust pitch trim by up to 5 degrees
+vehicle         : vehicle control
+velocity        : velocity
+version         : fetch autopilot version
+watch           : watch a MAVLink pattern
+wipe_parameters : wipe autopilot parameters
+wp              : waypoint management

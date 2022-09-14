@@ -1,0 +1,5 @@
+Okay, so the thing is that there is a lot of code that needs to be written. 
+For today, I will work for some time on pixhawk, and then the rest of the time on the AI.
+
+I will also make a list of all sensors. and associated web links.
+
